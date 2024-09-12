@@ -1,0 +1,354 @@
+$FontColor: #ffffff;
+
+a.nav-link.active {
+  color: #122265 !important;
+  font-weight: 600;
+}
+a.nav-link {
+  color: #363636 !important;
+  font-weight: 600;
+}
+ul.navbar-nav {
+  padding-right: 26px;
+}
+
+.rightDiv {
+  border: 2px solid #122265;
+  padding: 10px 13px;
+  margin-right: 10px;
+  margin-top: 10px;
+
+  a {
+    font-size: 14px;
+    color: #122865;
+    font-weight: 500;
+  }
+  svg {
+    margin-right: 10px;
+  }
+}
+
+/* hero section css */
+.wraper {
+  position: relative;
+  left: 35px;
+
+  .images img {
+    border-radius: 50%;
+    border: 4px solid #94cefd;
+    margin-left: -34px;
+  }
+  .rob {
+    margin-left: 16px;
+  }
+  .rob h2 {
+    margin-bottom: 5px;
+    color: $FontColor;
+  }
+  .rob p {
+    color: $FontColor;
+  }
+}
+.main-section {
+  padding: 0px 0px;
+  background-color: #fbfbfc;
+}
+.main-wraper {
+  background: linear-gradient(
+    127deg,
+    rgba(28, 43, 107, 1) 50%,
+    rgba(18, 34, 101, 1) 50%
+  );
+  // background: rgb(18, 34, 101);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 30px 50px 30px;
+
+  div h1 {
+    color: $FontColor;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  p.sparrendiv {
+    color: $FontColor;
+    margin-left: 30px;
+    font-size: 13px;
+    padding-top: 10px;
+  }
+}
+
+.threeDivs {
+  margin-top: 10%;
+  margin-right: 15%;
+  margin-left: 1%;
+  .blue {
+    padding: 20px 10px;
+    background-color: lightblue;
+    span img {
+      margin-right: 9px;
+    }
+    span {
+      font-weight: 600;
+      color: #122865;
+    }
+  }
+  .white {
+    background-color: #fff;
+    padding: 20px 10px;
+    font-weight: 600;
+  }
+}
+.main_counter_area {
+  background-size: cover;
+  overflow: hidden;
+}
+
+.main_counter_area .main_counter_content .single_counter i {
+  font-size: 36px;
+}
+.main_counter_content hr.bottomLine {
+  width: 24%;
+  margin: 0 auto;
+  height: 6px;
+  background-color: #95daef;
+  border: none;
+}
+h2.statistic-counter {
+  font-size: 48px;
+  font-weight: 700;
+  color: #122265;
+}
+// group section css//
+.gruop-div {
+  padding: 4% 0% 0% 2%;
+}
+.gruop-section {
+  background-color: #eef8fb;
+  .cureDiv {
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+  }
+}
+.twoDiv {
+  margin-top: 7%;
+  margin-right: 0%;
+  margin-left: 1%;
+}
+.footer {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  border-radius: 19px;
+  margin-top: 20px;
+  .robSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  span.insta {
+    margin-right: 16px;
+  }
+}
+.footer .instaDiv {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+section.onlangsDiv {
+  border-radius: 14px 14px 0px 0px;
+  position: relative;
+}
+section.onlangsDiv:before {
+  content: "";
+  width: 78%;
+  height: 450px;
+  background-color: #eef8fb;
+  position: absolute;
+  left: 0;
+  top: 200px;
+  z-index: -1;
+  border-radius: 10px;
+}
+.lastBG {
+  width: 80%;
+  background-color: lightblue;
+  height: 500px;
+  position: absolute;
+  top: -17px;
+  z-index: 0;
+  border-radius: 22px;
+}
+.onlangeHeading {
+  text-align: center;
+}
+.card-wraper:hover .imgContent {
+  opacity: 1;
+  transition: all 1s;
+}
+
+.imgContent {
+  position: absolute;
+  top: 113px;
+  padding: 20px;
+  width: 100%;
+  background-image: url(../images/halfBlue.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  opacity: 0;
+  .smallImg img {
+    border-radius: 50%;
+    border: 7px solid lightblue;
+  }
+  p.robName {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0px;
+  }
+  span.smallName {
+    color: #fff;
+    font-weight: 500;
+  }
+}
+.card-wraper {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 20px solid white;
+  margin-bottom: 10px;
+  .card {
+    border-radius: 0px;
+    border: none;
+    background-color: #fff;
+  }
+  .cardImg img {
+    border-radius: 0px;
+  }
+  .card-body {
+    margin-top: 0px;
+  }
+}
+section.voornaamdiv p.nieuwste {
+  font-size: 22px;
+  font-weight: 700;
+  color: #122865;
+  padding: 5px 10px;
+}
+
+section.voornaamdiv .white {
+  background-color: #fff;
+  padding: 16px;
+}
+
+section.voornaamdiv .blue {
+  background-color: #eef8fb;
+  padding: 18px;
+  font-weight: 600;
+  color: #122865;
+}
+.smallImg img {
+  border-radius: 50%;
+  border: 7px solid #eef8fb;
+}
+p.magDiv {
+  width: 80%;
+  margin: 0 auto;
+}
+.fourthDiv {
+  box-shadow: rgb(0 0 0 / 2%) 0px 4px 6px -1px, rgb(0 0 0 / 0%) 0px 2px 4px -1px;
+}
+.voornarDiv {
+  padding: 17px 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  border-radius: 10px;
+}
+.bottom-section {
+  background-color: #122865e8;
+  padding: 10px;
+  color: #fff;
+  position: relative;
+  top: 0px;
+}
+
+@media screen and (min-width: 767px) {
+  .main-section {
+    padding: 70px 0px;
+    background-color: #fbfbfc;
+  }
+  .footer .instaDiv {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  section.voornaamdiv {
+    padding: 60px 0px 0px;
+  }
+  section.onlangsDiv {
+    padding: 50px 0px;
+  }
+  .wraperrightlastDiv {
+    display: flex;
+    justify-content: end;
+    margin-right: -46px;
+  }
+  h3.jouw {
+    margin-left: 40px;
+  }
+  .main-section {
+    padding: 70px 0px 26px 0px;
+    background-color: #fbfbfc;
+    border-radius: 0% 0% 0% 4%;
+    img.buildingImg {
+      position: relative;
+      right: 84px;
+      max-width: 381px;
+      top: -32px;
+      height: 562px;
+    }
+  }
+  .main-wraper {
+    height: 500px;
+    div h1 {
+      font-size: revert;
+    }
+  }
+  .googleimg {
+    position: relative;
+    top: 402px;
+    left: -14px;
+    z-index: 99;
+  }
+
+  span.copyright {
+    text-align: end;
+    margin-right: 62px;
+    font-size: 13px;
+  }
+  .onlangeHeading {
+    text-align: start;
+  }
+
+  .imgContent {
+    position: absolute;
+    top: 15px;
+    padding: 20px;
+    width: 100%;
+    background-image: url(../images/halfBlue.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  .card-wraper .card-body {
+    margin-top: 92px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  img.arrowImg {
+    float: right;
+  }
+  .imgContent {
+    top: 65px;
+  }
+  .card-wraper .card-body {
+    margin-top: 20px;
+  }
+}
